@@ -49,7 +49,7 @@ kubectl apply -f pm_exporter.yaml
 ## Prometheus
 #### Installation
 
-Prometheus Helm chart의 value를 Kubernetes Pod의 target ip를 변경합니다.  
+Prometheus Helm chart의 value.yaml에서 Kubernetes Pod의 target ip를 변경합니다.  
 Helm 명령어로 설치합니다
 ```sh
 helm install prometheus my_prometheus/
