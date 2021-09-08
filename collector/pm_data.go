@@ -144,7 +144,6 @@ func (c *pmCollector) Update(ch chan<- prometheus.Metric) error {
 		//measInfoIdValue := measDataFile.MeasData.MeasInfo[i].MeasInfoID
 		measTypeListLen := len(measTypeList)
 		//fmt.Println(measInfoListLen, measTypeListLen)
-		//메트릭 개수 디버깅용
 
 		for j := 0; j < measTypeListLen; j++ {
 			metricKey := strings.ToLower(strings.ReplaceAll(measTypeList[j].Value, ".", "_"))
