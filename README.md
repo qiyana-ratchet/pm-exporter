@@ -1,5 +1,5 @@
 # PM Exporter
-PM data exporter for Prometheus Metrics on Kubernetes Cluster using Go  
+PM data exporter for Prometheus on Kubernetes Cluster
 
 ## Features
 
