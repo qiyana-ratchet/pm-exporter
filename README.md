@@ -3,7 +3,6 @@ PM data exporter for Prometheus on Kubernetes Cluster
 
 ## Features
 
-
 Kubernetes Cluster node에서 수신한 메트릭을 저장해 Prometheus의 http 요청에 따라 메트릭을 전송합니다.
 
 #### Notice
@@ -50,7 +49,7 @@ kubectl apply -f pm_exporter.yaml
 #### Installation
 
 Prometheus Helm chart의 value.yaml에서 Kubernetes Pod의 target ip를 변경합니다.  
-Helm 명령어로 설치합니다
+helm install command
 ```sh
 helm install prometheus my_prometheus/
 ```
